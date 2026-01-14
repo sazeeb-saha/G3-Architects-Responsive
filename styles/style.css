@@ -23,6 +23,8 @@
 }
 .text-light-gray {
   color: #727272;
+  line-height: 26px;
+  font-size: 1rem;
 }
 
 .bg-primary {
@@ -131,13 +133,53 @@ header {
   margin-bottom: 30px;
 }
 
+/** love and enjoy style */
+.love-enjoy {
+  gap: 150px;
+}
+.love-enjoy-content {
+  max-width: 580px;
+}
+.love-enjoy-title {
+  font-size: 3rem;
+  font-weight: 700;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.love-enjoy-card {
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.love-enjoy-card h4 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.architect-image img {
+  max-width: 100%;
+}
+.experience-btn {
+  margin-top: -130px;
+  margin-left: -100px;
+}
+.btn-ex-year {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.btn-text {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
 /** Responsive Design */
 /** responsive for mobile or small device */
 
 @media screen and (max-width: 576px) {
   .nav-bar,
   .nav-list,
-  .feature-section {
+  .feature-section,
+  .love-enjoy {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -153,6 +195,10 @@ header {
   }
   .feature-content {
     text-align: center;
+  }
+  .experience-btn {
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 /** responsive for tablet or medium device */
