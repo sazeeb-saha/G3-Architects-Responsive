@@ -25,6 +25,9 @@
   color: #727272;
   line-height: 26px;
 }
+.small-text {
+  font-size: 1rem;
+}
 
 .bg-primary {
   background-color: rgba(255, 144, 14, 0.1);
@@ -156,7 +159,7 @@ header {
   padding-bottom: 10px;
 }
 .architect-image img {
-  max-width: 100%;
+  width: 100%;
 }
 .experience-btn {
   margin-top: -130px;
@@ -202,9 +205,14 @@ header {
 }
 /** responsive for tablet or medium device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .feature-section {
+  .feature-section,
+  .love-enjoy {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .experience-btn {
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
